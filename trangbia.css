@@ -36,6 +36,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 .banner {
   color: white;
@@ -47,12 +48,11 @@
   height: 25vh !important;
   margin-top: 35vh;
   margin-left: 20vh;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   padding-top: 15px;
   text-align: center;
   line-height: 11vh;
   margin: 10px auto;
-  
 }
 .button {
   z-index: 20;
@@ -64,20 +64,29 @@
   font-family: "SVN-Proxima Nova", sans-serif !important;
   width: 200px;
   margin: 10px auto;
-    
 }
 .quotes {
   z-index: 30;
   font-size: 40px;
   margin: 10px auto;
   color: #ffffff;
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
 }
-.items{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center
+.items {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.abut {
+  z-index: 31;
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  color: mediumblue;
 }

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css" />
+    <script
+      src="https://kit.fontawesome.com/9d889a3143.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous" />
+  </head>
+  <body>
+    <div id="cover-picture"><div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="img1"
+            style="
+              background: url('https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg');
+            "
+          ></div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="img2"
+            style="
+              background: url('https://wallpapercave.com/wp/wp3105346.jpg');
+            "
+          ></div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="img3"
+            style="
+              background: url('https://wallpapersmug.com/download/3840x2400/ddcbbf/food-pizza-baking.jpg');
+            "
+          ></div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div></div>
+    <div id="taskbar">
+      <!-- <div id="logo">
+        <img src="C:\Users\Admin\Desktop\logo.png" alt="x" id="imagelogo" />
+      </div>
+      <div id="searchbutton" class="box">
+        <div class="container-1">
+          <span class="icon" id="entersearch"
+            ><i class="fas fa-search"></i
+          ></span>
+          <input
+            type="search"
+            id="search"
+            placeholder="Search..."
+            onkeypress="return pressenter(event)"
+          />
+        </div>
+      </div>
+      <div id="add">ADD</div>
+      <div id="log-in">LOG IN</div> -->
+    </div>
+    <br />
+    <div class="homemain hm1">
+      <div class="newfoods">
+        <div class="tagnew">New foods</div>
+        <div class="newfoodx" id="newfood1">
+            <i class="far fa-bookmark bm1" title='Lưu món' id="newtagsave1"></i>
+            <div class="miniimage" id="newimage1"></div>
+            <div class="mininame" id="newname1"></div>
+            <div class="minitime" id="newtime1"></div>
+            <div class="miniview" id="newview1"></div>
+            <div class="minilike" id="newlike1"></div>
+            <div class="miniid" id="newid1"></div></div
+        >
+        <div class="newfoodx" id="newfood2">
+          <i class="far fa-bookmark bm1" title='Lưu món' id="newtagsave2"></i>
+            <div class="miniimage" id="newimage2"></div>
+            <div class="mininame" id="newname2"></div>
+            <div class="minitime" id="newtime2"></div>
+            <div class="miniview" id="newview2"></div>
+            <div class="minilike" id="newlike2"></div>
+            <div class="miniid" id="newid2"></div></div
+        >
+      <div class="newfoodx" id="newfood3">
+        <i class="far fa-bookmark bm1" title='Lưu món' id="newtagsave3"></i>
+            <div class="miniimage" id="newimage3"></div>
+            <div class="mininame" id="newname3"></div>
+            <div class="minitime" id="newtime3"></div>
+            <div class="miniview" id="newview3"></div>
+            <div class="minilike" id="newlike3"></div>
+            <div class="miniid" id="newid3"></div></div
+        >
+       <div class="newfoodx" id="newfood4">
+        <i class="far fa-bookmark bm1" title='Lưu món' id="newtagsave4"></i>
+            <div class="miniimage" id="newimage4"></div>
+            <div class="mininame" id="newname4"></div>
+            <div class="minitime" id="newtime4"></div>
+            <div class="miniview" id="newview4"></div>
+            <div class="minilike" id="newlike4"></div>
+            <div class="miniid" id="newid4"></div></div
+        >
+      </div>
+      <div class="hotfoods" id='hotfoods'>
+        <div class="tagnew">Hot foods</div>
+        <div class="newfoodx" id="hotfood1"></div>
+        <div class="newfoodx" id="hotfood2"></div>
+        <div class="newfoodx" id="hotfood3"></div>
+        <div class="newfoodx" id="hotfood4"></div>
+      </div>
+      <div class="hotmembers">
+        <div class="tagnew">Hot Members</div>
+        <div class="newfoodx" id="hotmem1"></div>
+        <div class="newfoodx" id="hotmem2"></div>
+        <div class="newfoodx" id="hotmem3"></div>
+        <div class="newfoodx" id="hotmem4"></div>
+      </div>
+    </div>
+    <script src="mainbox.js"></script>
+    <script src="home.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
